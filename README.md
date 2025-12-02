@@ -1,6 +1,6 @@
 # Double Diamond SVG Generator
 
-I have come to use in my professional life the (Design Council's Double Diamond model)[https://www.designcouncil.org.uk/our-resources/the-double-diamond/] numerous times. The challenge that I faced was that for every presentation I wanted a visual that was different than the ones I found online. 
+I have come to use in my professional life the Design Council's Double Diamond model (https://www.designcouncil.org.uk/our-resources/the-double-diamond/) numerous times. The challenge that I faced was that for every presentation I wanted a visual that was different than the ones I found online. 
 
 For this reason I created this application.
 
