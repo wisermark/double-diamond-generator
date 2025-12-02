@@ -27,4 +27,6 @@ Users can customize visual aspects through the UI and export different variants 
 - Tkinter (usually included with Python)
 - A modern web browser (for preview)
 
+---
 
+## 👨🏻‍💻 Developer: http://khan.gr
