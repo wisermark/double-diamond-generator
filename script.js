@@ -174,7 +174,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function resetDefaults() {
         // Reload page is easiest way to reset logic without tracking initial state
         if(confirm('Reset all fields to default?')) {
-            location.reload(); 
+            //location.reload(); --did not work in some browsers e.g. Firefox
+            window.location.href = window.location.href;
         }
     }
 
