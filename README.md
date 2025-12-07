@@ -4,7 +4,7 @@ I have come to use in my professional life the Design Council's Double Diamond m
 
 For this reason I created this application.
 
-This project provides a **Python application with a Tkinter user interface** for generating parameterized SVG diagrams of the **Design Council’s Double Diamond model**.  
+This project provides a **JS+HTML+CSS and a Python application with a Tkinter user interface** for generating parameterized SVG diagrams of the **Design Council’s Double Diamond model**.  
 Users can customize visual aspects through the UI and export different variants of the diagram as an SVG file.
 
 ---
