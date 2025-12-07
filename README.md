@@ -21,7 +21,7 @@ Users can customize visual aspects through the UI and export different variants 
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Python Requirements
 
 - Python 3.7+
 - Tkinter (usually included with Python)
