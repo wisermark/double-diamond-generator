@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Diamond SVG Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="controls">
+            <header>
+                <h1>Double Diamond Gen</h1>
+                <p>Configure your diagram below.</p>
+            </header>
+
+            <form id="configForm">
+                <div class="control-group">
+                    <h3>Dimensions (px)</h3>
+                    <div class="input-row">
+                        <label>Width <input type="number" id="width" value="800"></label>
+                        <label>Height <input type="number" id="height" value="450"></label>
+                    </div>
+                    <div class="input-row">
+                        <label>Margin <input type="number" id="margin" value="50"></label>
+                        <label>Gap <input type="number" id="gap" value="20"></label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Header Content</h3>
+                    <label>Title <input type="text" id="titleText" value="Double Diamond Design Model"></label>
+                    <label>Subtitle <input type="text" id="subText" value="Design Council Framework"></label>
+                </div>
+
+                <div class="control-group">
+                    <h3>Styling</h3>
+                    <div class="input-row">
+                        <label>Title Size <input type="number" id="titleSize" value="32"></label>
+                        <label>Subtitle Size <input type="number" id="subSize" value="18"></label>
+                    </div>
+                    <div class="input-row">
+                        <label>Label Size <input type="number" id="labelSize" value="20"></label>
+                        <label>Stroke Width <input type="number" id="strokeWidth" value="2"></label>
+                    </div>
+                    <div class="input-row">
+                        <label>Stroke Color <input type="color" id="strokeColor" value="#333333"></label>
+                        <label>Text Color <input type="color" id="textColor" value="#000000"></label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Phases</h3>
+                    
+                    <div class="phase-row">
+                        <span class="phase-idx">1</span>
+                        <input type="text" id="p1Label" value="Discover">
+                        <input type="color" id="p1Color" value="#FFFFFF">
+                    </div>
+                    
+                    <div class="phase-row">
+                        <span class="phase-idx">2</span>
+                        <input type="text" id="p2Label" value="Define">
+                        <input type="color" id="p2Color" value="#f2ffcc">
+                    </div>
+
+                    <div class="phase-row">
+                        <span class="phase-idx">3</span>
+                        <input type="text" id="p3Label" value="Develop">
+                        <input type="color" id="p3Color" value="#F5F5F5">
+                    </div>
+
+                    <div class="phase-row">
+                        <span class="phase-idx">4</span>
+                        <input type="text" id="p4Label" value="Deliver">
+                        <input type="color" id="p4Color" value="#dfff80">
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button type="button" id="downloadBtn" class="btn-primary">Download SVG</button>
+                    <button type="button" id="resetBtn" class="btn-secondary">Reset Defaults</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="preview-area">
+            <div id="svgContainer" class="canvas-wrapper">
+                </div>
+            <p class="preview-hint">Live Preview</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
